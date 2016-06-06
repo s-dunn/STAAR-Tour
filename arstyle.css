@@ -1,0 +1,207 @@
+/*  Main styles  */
+body {
+  background-color: #f9f9f9;
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 115%;
+}
+
+header {
+  background-color: white;
+  padding: 0px 0px 0px 0px;
+  margin: 0;
+  width: 100%;
+}
+
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer {
+  background-color: black;
+  padding: 10px 0px 10px 0px;
+  margin: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+#logo {
+text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+width: 400px;
+}
+
+#bgpic {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+/*  Font styles  */
+h1{
+color: black;
+font-family: 'Poiret One', sans-serif;
+font-weight: normal;
+text-align: center;
+font-size: 300%;
+margin-bottom: 0;
+padding-bottom: 0;
+margin-top: 0;
+padding-top: 0px;
+}
+
+h2{
+font-size: 100%;
+text-align: center;
+margin-top: 0;
+padding-top: 0;
+margin-bottom: 0;
+padding-bottom: 40px;
+}
+
+h3{
+color: black;
+font-family: 'Poiret One', sans-serif;
+font-weight: normal;
+text-align: center;
+font-size: 200%;
+margin-bottom: 0;
+padding-bottom: 0;
+margin-top: 0;
+padding-top: 5px;
+}
+
+#headertext {
+  margin: auto;
+  width: 40%;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+/*  Div styles  */
+#about {
+  background-color: #f9f9f9;
+  padding: 10px 0px 10px 0px;
+  margin: 0;
+  width: 100%;
+}
+
+#content {
+  width: 80%;
+  text-align: justify;
+  margin: auto;
+}
+
+hr {
+  color: black;
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*  interaction  */
+ #getIt {
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+ }
+
+.button {
+   color: black;
+   background-color: lightblue;
+   border: none;
+   border-radius: 0;
+   padding: 9px;
+ }
+
+ input {
+   color: white;
+   background-color: black;
+   border: none;
+   border-radius: 0;
+   padding: 10px;
+ }
+
+ select {
+   padding: 5px;
+ }
+
+ #displayCanvas {
+   height: 380px;
+   width: 100%;
+   background-color: white;
+   margin: auto;
+   padding-top: 30px;
+ }
+
+/* TABS https://www.w3.org/Style/Examples/007/target.en.html#tab1 */
+
+div.tabs {
+  min-height: 500px;		/* No height: can grow if :target doesn't work */
+  position: relative;		/* Establish a containing block */
+  line-height: 1;		/* Easier to calculate with */
+  z-index: 0}			/* So that we can put other things behind */
+
+div.tabs > div {
+  display: inline}		/* We want the buttons all on one line */
+
+div.tabs > div > a {
+  color: black;			/* Looks more like a button than a link */
+  background: #CCC;		/* Active tabs are light gray */
+  padding: 5px 25px 1px 25px;
+  border: none;}
+
+div.tabs > div:not(:target) > a {
+  border-bottom: none;		/* Make the bottom border disappear */
+  background: #999}		/* Inactive tabs are dark gray */
+
+div.tabs > div:target > a,	/* Apply to the targeted item or... */
+:target #default2 > a {		/* ... to the default item */
+  border-bottom: 6px solid #CCC; /* Visually connect tab and tab body */
+  background: #CCC}		/* Active tab is light gray */
+
+div.tabs > div > div {
+  background: #CCC;		/* Light gray */
+  z-index: -2;			/* Behind, because the borders overlap */
+  left: 0; top: 1.3em;		/* The top needs some calculation... */
+  bottom: 0; right: 0;		/* Other sides flush with containing block */
+  overflow: auto;		/* Scroll bar if needed */
+  padding: 10px;		/* Looks better */
+  border: none}
+
+div.tabs > div:not(:target) > div { /* Protect CSS1 & CSS2 browsers */
+  position: absolute }		/* All these DIVs overlap */
+
+div.tabs > div:target > div, :target #default2 > div {
+  position: absolute;		/* All these DIVs overlap */
+  z-index: -1}			/* Raise it above the others */
+
+div.tabs :target {
+  outline: none;
+}
+
+/* links */
+a {
+text-decoration: none;
+font-weight: bold;
+}
+
+#backtotop {
+margin:auto;
+text-align: center;
+}
+
+
+/* slideshow, http://www.w3schools.com/w3css/*/
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}

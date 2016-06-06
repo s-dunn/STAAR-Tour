@@ -1,0 +1,581 @@
+<!---  COLOR CODES
+grey blue: #607d8b
+blue: #2196F3
+teal: #009688
+--->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>STAAR</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel='shortcut icon' href='img/favicon.png' type='image/x-icon'>
+        <script src="staar.js"></script>
+	<link rel="stylesheet" type="text/css" href="w3.css">
+	<link rel="stylesheet" type="text/css" href="arstyle.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+</head>
+<body onload="showDivs(slideIndex);">
+	<!-- NAVIGATION BAR -->
+	<div class="w3-top">
+	<ul class="w3-navbar w3-black" style="font-weight: normal; ">
+ 	<li style=""><a href="#vision"><i class="fa fa-bullseye w3-text-theme" style="font-size:20px; color: lightblue;"></i> Vision</a></li>
+	<li style=""><a href="#benefits"><i class="fa fa-thumbs-up w3-text-theme" style="font-size:20px; color: #2196F3;"></i> Benefits</a></li>
+	<li style=""><a href="#prototype"><i class="fa fa-mobile w3-text-theme" style="font-size:24px; color: #607d8b;"></i>  Prototype</a></li>
+ 	<li style=""><a href="#state"><i class="fa fa-bar-chart w3-text-theme" style="font-size:20px; color: #3f51b5;"></i> State of the Art</a></li>
+	<li style=""><a href="#challenges"><i class="fa fa-exclamation-triangle w3-text-theme" style="font-size:20px; color: #009688;"></i> Challenges</a></li>
+	<li style="" class="w3-hide-small">&nbsp;</li>
+	<li class="w3-right"><a href="#top"><i class="fa fa-arrow-circle-up w3-text-theme" style="font-size:25px; color: white"></i></a></li>
+	</ul>
+	</div>
+	
+	<!-- HEADER -->
+	<header id ="top">
+		<img class="w3-animate-opacity" id='bgpic' alt='STAAR tours logo' src ='img/logo.png'/>
+	</header>
+	<!--
+	1. CONTENT: VISION
+	-->
+	<div id='about'>
+	<div id='content'>
+		<hr>
+		<h1 id="vision" style="padding-top: 15px; padding-bottom: 15px">
+		<i class="fa fa-bullseye w3-text-theme" style="font-size:60px; color: lightblue;"></i>  Vision</h1>
+
+		<!-- VISION2 --> 
+		<div class="w3-row-padding w3-center w3-margin-top">
+		<div class="w3-third">
+ 		<div class="w3-card" style="background-color: white; min-height:520px">
+			<div class="w3-container w3-light-blue">
+			<h3>What is AR?</h3>
+			</div>
+  		<p style="padding:15px; text-align: justify;">	
+			With augmented reality (AR) technology, we can merge <b>computer generated content</b> into a view of the <b>real world</b>, creating a 			whole new experience.<br><br> AR enables us to create a new way of engaging tourists in our destinations.
+			Ruins and destroyed structures can be recreated and viewed in a scene with a device's camera or head-mounted displays.
+			<br><br>
+			Scotland is a country with an incredibly rich heritage and AR allows us to bring this history to life again.
+			</p>
+  		</div>
+		</div>
+
+		<!-- VISION2-->
+		<div class="w3-third">
+  		<div class="w3-card" style="background-color: white; min-height:520px">
+		<div class="w3-container w3-light-blue">
+		<h3>AR in education</h3>
+		</div>
+  		<p style="padding:15px; text-align: justify;">
+		As AR can create an interactive and fun environment that allows users to immerse themselves in the past, it is a great opportunity for teaching 		history.<br><br> With AR, <b>another layer of information</b> and interaction can be created on top of the physical world the users can see. It makes content tangible which is especially great for school age children and students.<br><br>
+		Instead of passively absorbing information the users can actively <b>engage and interact</b> with the content, which makes learning both easier and more fun. AR can be a great tool for both educators and parents to help students both learn and apply new skills.
+		</p>
+  		</div>
+		</div>
+
+
+		<div class="w3-third">
+  		<div class="w3-card" style="background-color: white; min-height:520px">
+			<div class="w3-container w3-light-blue">
+			<h3>STAAR Tours</h3>
+			</div>
+  		<p style="padding:15px; text-align: justify;">
+		We present a prototype app STAAR TOURS: An <b>educational AR game</b> for children that leads them through Scottish cities and their history. In 			this game, the students become time-travelling agents of a secret agency in the 61st century. <br><br>On their missions, they travel throughout 		important moments in history and to many important landmarks while trying to catch a thief from the future.<br><br>
+		Based on their locations, various moments from history come alive and the children can interact with them while being led through the city.
+		</p>
+  		</div>
+		</div>
+
+</div>
+<!--- quote --> 
+<div class="w3-container" style="max-width: 100%;">
+<div style="margin-top: 15px;" class="w3-container w3-light-grey w3-leftbar w3-border-light-blue">
+  <p style="font-style: italic;">"Should teachers be using techniques such as augmented reality (AR) to engage students and develop their skills for the modern world? Well, I say 'yes'."</p>
+<p><a target="_blank" href="http://www.theguardian.com/higher-education-network/blog/2013/feb/11/augmented-reality-teaching-tool-trend">Judy Bloxham </a>(The Guardian)</p>
+</div>
+<br>
+<!-- slideshow-->
+<div class="w3-content w3-display-container" style="max-width:100%">
+  <img class="mySlides w3-animate-opacity" src="img/queen.png" style="width:100%">
+  <img class="mySlides w3-animate-opacity" src="img/redalert.png" style="width:100%">
+  <img class="mySlides w3-animate-opacity" src="img/edin.png" style="width:100%">
+  <div class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:100%">
+  <div class="w3-left w3-padding-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+  <div class="w3-right w3-padding-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+  <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+  </div>
+</div>
+
+<hr>
+</div>
+
+<!--
+2. CONTENT: BENEFITS
+-->
+<div style="width: 97.5%; margin: auto">
+<h1 id="benefits" style="padding-top: 15px; padding-bottom: 15px"><i class="fa fa-thumbs-up w3-text-theme" style="font-size:60px; color: #2196F3;"></i>  Benefits</h1>
+<br>
+
+<!-- benefit 1-->
+	<div class="w3-row w3-border-right w3-border-left w3-border-top w3-white">
+	<div class="w3-container w3-third">
+	<h1 style="vertical-align: middle; padding:15px; color:#2196F3">Interacting with the past</h1>
+	</div>
+	<div class="w3-container w3-twothird w3-white">
+	<p style="text-align: justify; padding: 15px;">
+With augmented visuals, it is possible to recreate buildings,  statues, pictures or other artefacts that are no longer complete. Tourists can view the augmentation with a head-mounted display or mobile device. Viewing scene completion via augmentation enables visitors to experience history in a tangible way. This interaction has the potential of engaging the user in a way that is otherwise impossible with more traditional city touring. STAAR Tours uses AR within the camera view of visitors mobile device. This is used to teach visitors about important Scottish landmarks and history.
+	</p>
+	</div>
+	</div>
+
+	<!-- bene1 pic -->
+
+	<img class="w3-border-right w3-border-left w3-border-bottom" src='img/bene1.png' width="100%" style="margin: auto;">
+
+
+<!-- benefit 2-->
+<br>
+	<div class="w3-row w3-border-right w3-border-left w3-border-top w3-white">
+	<div class="w3-container w3-third">
+	<h1 style="vertical-align: middle; padding:15px; color:#2196F3">Your own story</h1>
+	</div>
+	<div class="w3-container w3-twothird w3-white">
+	<p style="text-align: justify; padding: 15px;">
+AR can help enhance the interaction between visitor and destination and visitors can tailor the content to their preferences.  AR experiences are customisable and can be individualised by users in terms of what is shown, what order and the duration. Users can customise their visitor experience with STAAR Tours by choosing their character and the order of landmarks they visit.
+	</p>
+	</div>
+	</div>
+
+	<!-- bene2 pic -->
+	<img class="w3-border-right w3-border-left w3-border-bottom" src='img/bene2.png' width="100%" style="margin: auto;">
+
+<!-- benefit 3-->
+<br>
+	<div class="w3-row w3-border-right w3-border-left w3-border-top w3-white">
+	<div class="w3-container w3-third">
+	<h1 style="vertical-align: middle; padding:15px; color:#2196F3">Location</h1>
+	</div>
+	<div class="w3-container w3-twothird w3-white">
+	<p style="text-align: justify; padding: 15px;">
+With an AR enhanced experience, location-based information can be provided as visitors move within a defined area. Location can easily be gathered by QR codes, ports, or exact geospatial location. This is particularly useful with city tours because AR can be used to guide visitors to different important locations within a city.
+	</p>
+	</div>
+	</div>
+
+	<!-- bene3 pic -->
+	<img class="w3-border-right w3-border-left w3-border-bottom" src='img/bene3.png' width="100%" style="margin: auto;">
+
+<!-- benefit 4-->
+<br>
+	<div class="w3-row w3-border-right w3-border-left w3-border-top w3-white">
+	<div class="w3-container w3-third">
+	<h1 style="vertical-align: middle; padding:15px; color:#2196F3">Gamification</h1>
+	</div>
+	<div class="w3-container w3-twothird w3-white">
+	<p style="text-align: justify; padding: 15px;">
+With the application of AR, the entire visit can be gamified in order to create a fun and engaging experience. The ability to augment a view creates many different possibilities for game concepts. STAAR Tours utilises AR within the camera view to provide the user with information that helps them advance in the game. 
+	</p>
+	</div>
+	</div>
+	
+	<!-- bene4 pic -->
+	<img class="w3-border-right w3-border-left w3-border-bottom" src='img/bene4.png' width="100%" style="margin: auto;">
+
+<!-- benefit 5-->
+<br>
+	<div class="w3-row w3-border-right w3-border-left w3-border-top w3-white">
+	<div class="w3-container w3-third">
+	<h1 style="vertical-align: middle; padding:15px; color:#2196F3">Adaptability</h1>
+	</div>
+	<div class="w3-container w3-twothird w3-white">
+	<p style="text-align: justify; padding: 15px;">
+Using AR as part of city tours is a robust approach for boosting Scottish tourism, as the concept is easily adaptable to other cities. The combination of gamification, location-based augmentation, and personalisation can be applied as a guide to any city. In this respect, AR has the potential of guiding tourists all across Scotland in an immersive and memorable way.
+	</p>
+	</div>
+	</div>
+	<!-- bene5 pic -->
+	<img class="w3-border-right w3-border-left w3-border-bottom" src='img/bene5.png' width="100%" style="margin: auto;">
+	
+<br>
+</div>
+<hr>
+</div>
+<!--
+3. CONTENT: PROTOTYPE
+-->
+<h1 id="prototype" style="padding-top: 15px; padding-bottom: 15px">
+<i class="fa fa-mobile w3-text-theme" style="font-size:60px; color: #607d8b;"></i>  UI and Prototype</h1>
+<div id="content">
+<br>
+<!-- Video -->
+<center>
+
+ <iframe src="https://player.vimeo.com/video/165337693" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <button style="width:97.5%; margin: auto" onclick="accordBlue('screens')" class="w3-btn-block w3-left-align"><h3 style="color:white;">Show UI mock-up details <i style="font-size:75%;" class="fa fa-caret-down"></i></h3></button>
+  <div id="screens" class="w3-accordion-content w3-container">
+      <img src="img/STAARscreens.png" style="width: 100%" />
+  </div></center>
+
+<!-- 3 features -->
+
+<div class="w3-row-padding w3-center w3-margin-top">
+<!-- feature 1 -->
+	<div class="w3-third">
+        <div class="w3-card" style="background-color: white; min-height:420px">
+	<div class="w3-container w3-blue-grey">
+	<h3 style="color: white;">Gamification</h3>
+	</div>
+  	<p style="text-align: justify; padding: 15px;">
+Users interact with the app as a character in a game on their mobile device. Their character is an agent that is given a mission to catch a time-traveling criminal. The game sets the agent on a mission with a map of markers to go to and correct the wrongs made by the criminal. The user must correct the information about each landmark on the map to restore the historical facts that the criminal has meddled with. Once the user has corrected history at all the map markers, they have defeated the criminal and banished them from the city.
+	</p>
+  	</div>
+	</div>
+<!-- feature2 -->
+	<div class="w3-third">
+	<div class="w3-card" style="background-color: white; min-height:420px">
+	<div class="w3-container w3-blue-grey">
+	<h3 style="color:white;">Augmentation</h3>
+	</div>
+  	<p style="text-align: justify; padding: 15px;">
+The app utilises augmented reality in the camera view. Once a user arrives at a map marker, they press on it to activate the camera view. They point their camera at the landmark and the correct historical information shows around the landmark. This augmentation uses the device's longitude and latitude to determine which graphics to show in the view. This requires the user to have service with their network provided or access to a wireless network.
+	</p>
+  	</div>	
+	</div>
+<!-- feature 3 -->
+	<div class="w3-third">
+  	<div class="w3-card" style="background-color: white; min-height:420px">
+	<div class="w3-container w3-blue-grey">
+	<h3 style="color:white;">Education</h3>
+	</div>
+  	<p style="text-align: justify; padding: 15px;">
+STAAR Tours harnesses an educational experience for its users by teaching them facts about different historical landmarks in Scottish cities. A user must learn about each important landmark to play and win the game. The educational focus of the game makes it a suitable option for traveling students.
+	</p>
+  	</div>
+	</div>
+
+</div>
+<br>
+
+
+<!-- DOWNLOAD APP --> 
+<h3>Download the Prototype</h3>
+<div class="w3-card w3-white" style="width:97.5%; margin: auto; padding: 15px;">
+<p>In addition to creating the UI design, we also implemented a prototype for the game application for Android phones. You can install it by downloading the APK file here and opening it on your Android device.</p>
+<center>
+<a href="prototype/android-debug.apk"><button class="w3-btn w3-blue-grey">Download app</button></a>
+<a href="prototype/android-debug-unaligned.apk"><button class="w3-btn w3-blue-grey">Download (alternative version)</button></a>
+</center>
+</div>
+
+<!--TECHNOLOGY overview  -->
+<h3>An Overview of AR Technogies</h3>
+
+<table style="width: 97.5%; background-color: white; margin-left: auto; margin-right: auto" class="w3-table w3-striped w3-border">
+<thead>
+<tr class="w3-blue-grey">
+  <th>AR Development Tools</th>
+  <th>Supported Platforms</th>
+</tr>
+</thead>
+<tr>
+  <td>WikitudeSDK</td>
+  <td>Android, IOS, Google Glass, PhoneGap, Xamarin, Titanium, Unity, Hololense</td>
+</tr>
+<tr>
+  <td>DroidAR</td>
+  <td>Android</td>
+</tr>
+<tr>
+  <td>VulforiaSDK</td>
+  <td>Android, IOS, Unity</td>
+</tr>
+<tr>
+  <td>MetaioSDK</td>
+  <td>Android, IOS, Google Glass, PhoneGap, Xamarin, Titanium, Unity</td>
+</tr>
+<tr>
+  <td>ARToolkit</td>
+  <td>IOS, Android, Google Glass, Hololense</td>
+</tr>
+<tr>
+  <td>ARPASDK</td>
+  <td>IOS, Android, Google Glass, Unity</td>
+</tr>
+</table>
+
+<br>
+<!--USED TECHNOLOGY details -->
+<h3>AR Technogies used for STAAR Tours</h3>
+<!-- tech1 -->
+<div class="w3-card" style="background-color: white; width: 97.5%; margin: auto;">
+<header class="w3-container w3-blue-grey">
+  <h4>Architecture of our prototype</h4>
+</header>
+<div class="w3-container">
+  <p>The following graphic gives an overview of the architecture we implemented in our prototype. </p>
+
+  <button onclick="accordBlue('imgArchi')" class="w3-btn">show architecture image</button>
+  <div id="imgArchi" class="w3-accordion-content w3-container">
+<img style="padding: 20px; max-width: 100%;" src="img/tech_architecture.png" alt="architecture of system" />
+<p>Architecture of the system</p>
+  </div>
+</div>
+<br>
+</div>
+<br>
+<!-- tech2 -->
+<div class="w3-card" style="background-color: white; width: 97.5%; margin: auto;">
+<header class="w3-container w3-blue-grey">
+  <h4>WikitudeSDK</h4>
+</header>
+<div class="w3-container">
+<p>
+Wikitude is one of the most popular augmented reality tools on the market, used to create AR content for phones, tablets and smart eyewear. The main design requirements of the SDK was to provide a comprehensive list of features to users while abstracting the complexities of the underlying infrastructure. The final design seemed to be in line with those goals as the tool is now being used by over 100000 developers to create hundreds of cross platform applications.
+WikitudeSDK is designed to facilitate the development of cross platform applications and thus is logically fragmented into platform specific APIs.
+</p>
+
+  <button onclick="accordBlue('CVE')" class="w3-btn">Computer Vision Engine</button>
+  <div id="CVE" class="w3-accordion-content w3-container">
+<p>
+The computer Vision Engine provides the core image processing functionality of the Augmented reality browser. For example, 3d image recognition and SLAM operations are executed in this components. This is only accessible through the Native or JavaScript APIs described below.
+</p>
+</div>
+
+
+  <button onclick="accordBlue('JSAPI')" class="w3-btn">JavaScript API</button>
+  <div id="JSAPI" class="w3-accordion-content w3-container">
+<p>
+In the face of increased web development, Wikitude provides a means of seamlessly integrating augmented reality 'worlds' into web based application. This component serves as the interface to the CVE as well as providing location based 3d and AR scene rendering.
+</p>
+  </div>
+
+
+  <button onclick="accordBlue('CORPLUG')" class="w3-btn">Cordova plugin</button>
+  <div id="CORPLUG" class="w3-accordion-content w3-container">
+<p>
+The Cordova plugin is essentially a translator for systems calls made from a Cordova application using the JavaScript API to the CVE. This allows for homogeneous development to the JavaScript API wile allowing addressing the issue of catering to multiple development platforms.
+</p>
+</div>
+
+<p>
+The Wikitude plugin is simply a framework for providing AR functionality to an existing application. Therefore, in most deployments, it is open expected to see Wikitude being used alongside legacy web technologies. 
+</p>
+
+</div>
+<br>
+</div>
+<br>
+<!-- tech3 -->
+<div class="w3-card" style="background-color: white; width: 97.5%; margin: auto;">
+<header class="w3-container w3-blue-grey">
+  <h4>PhoneGap/ Cordova</h4>
+</header>
+<div class="w3-container">
+  <p>The distinction between the operations of PhoneGap and Cordova is not always straightforward to developers. Simply put, PhoneGap is a distribution of Cordova. So what is Cordova and why is it so special?
+Cordova is an open source mobile development framework. Applications are created using standard web programming languages and are executed inside platform specific wrappers. Device specific capabilities are leveraged through API binding. Cordova can automatically generate builds for different platforms from a single project. This means that a developer only needs to code one version of the application but have it run on multiple platforms.
+The full design goals, motivation and philosophy behind Phonegap and Cordova can be found <a target="_blank" href="http://phonegap.com/blog/2012/05/09/phonegap-beliefs-goals-and-philosophy/">here</a>.
+</p>
+  <button onclick="accordBlue('imgCordova')" class="w3-btn">show Cordova architecture</button>
+  <div id="imgCordova" class="w3-accordion-content w3-container">
+<p>We will not go into the details of this architecture. The functions of the components that make up this architecture can be read about <a href="https://cordova.apache.org/docs/en/latest/guide/overview/index.html">here</a>.</p>
+<img style="padding: 20px; max-width: 100%;" src="img/tech_cordova.png" alt="cordova" />
+
+  </div>
+<p>
+PhoneGap allows us to make use of any existing technology used om traditional web development. Additionally, the shift to mobile computing have seen an increase in many user interface frameworks built specifically for 'small screens'. One of the more popular frameworks is jQuery.
+</p>
+</div>
+<br>
+</div>
+<br>
+<!-- tech4 -->
+<div class="w3-card" style="background-color: white; width: 97.5%; margin: auto;">
+<header class="w3-container w3-blue-grey">
+  <h4>jQuery</h4>
+</header>
+<div class="w3-container">
+<div style="margin-top: 15px;" class="w3-container w3-light-grey w3-leftbar w3-grey">
+  <p style="font-style: italic;">"jQuery Mobile is a unified, HTML5-based user interface system for all popular mobile device platforms, built on the rock-solid jQuery and jQuery UI foundation."</p>
+<p><a href="https://github.com/jquery/jquery-mobile">Source</a></p>
+</div>
+  <p>
+ 
+The entire jQuery library is written in JavaScript making it very extendable. Many third party vendors supply frameworks that provide more flexible features to those found in JQuery mobile. We make use of the nativeDroid2 theme extension pack. Themes can be used to easily change the look of the application without affecting its operations. nativeDroid2 theme resembles the material design philosophy being adopted by many android app developers. Familiarize yourself with the library <a href="http://api.jquerymobile.com/">here</a>.
+</p>
+</div>
+</div>
+<br>
+<hr>
+</div>
+
+	<!--
+	 4. CONTENT: STATE OF THE ART
+ -->
+<h1 id="state" style="padding: 15px; margin: auto"><i class="fa fa-bar-chart w3-text-theme" style="font-size:60px; color: #3f51b5;"></i> State of the Art</h1>
+<div id='content'>
+<p>With the increasing use of smartphones and tablets comes the developmental pursuit of mobile technologies like augmented reality (AR), to create new and better experiences. Hospital Technology, a tourism industry publication, noted the potential for mobile AR in tourism as a way to enhance experience by adding virtual objects to the environment <sup><a href="http://hospitalitytechnology.edgl.com/news/Mobile-Augmented-Reality-Market-Worth-$79B--by-2022105493">1</a></sup>. With STAAR Tours being part of an industry that could be valued at $80 billion by 2022<sup><a href="http://mobilebusinessinsights.com/news/mobile-augmented-reality-growth-will-surge-by-2022/">2</a></sup>, it is essential to examine the state of the art and examples what others are doing in similar fields (e.g. walking and city tours), and how this might inform the state of the art of STAAR Tours.
+</p>
+<p>
+In the following, several projects others are implementing are highlighted to showcase the potential of AR. Click on the project name to find out more.  
+
+</p>
+
+<!-- accord http://www.w3schools.com/w3css/w3css_accordions.asp--> 
+<div class="w3-accordion w3-light-grey w3-border">
+
+
+  <button onclick="accordIndigo('Art1')" class="w3-btn-block w3-left-align"><h3 style="color:white;">Wikitude <i style="font-size:75%;" class="fa fa-caret-down"></i></h3></button>
+  <div id="Art1" class="w3-accordion-content w3-container">
+      <p>One of the providers whose resources we have used to build our prototype is <a href="http://www.wikitude.com/">Wikitude</a> who released one of the first AR toolkits. By using a wide range of methods to detect user location - from GPS, other sensors (e.g. tilt sensors) on the mobile device, and OCR to 2D image recognition - and by striving to facilitate cross-platform development, it remains a very popular choice for developers with over 100, 000 currently working with the SDK . From their mobile app (available on Android and iOS), users can either pan their surroundings for information derived from either TripAdvisor or Wikipedia, or access a multitude of other projects through a search function. Projects can be developed by either purchasing the SDK, or, more recently, through the Wikitude Studio, which allows creators without programming skills to create interactive elements. </p>
+<p>While uses for Wikitude's technology ranges from augmenting printed advertising to augmenting a driving experience and fashion show, a number of projects focus on travel or education: </p>
+<ul>
+<li><h5>Gladiator School Carnuntum</h5> 
+In 2011, the first gladiatorial school found outside of Rome was discovered buried underground near Vienna, Austria, at a former army camp of the Roman Empire known as Carnuntum. Architects and technicians worked together to reconstruct a 3D model of the school, and Wikitude was was later brought in, using geolocation to allow visitors on guided tours to wander through this model on site, in real time and at true-to-life scale<sup><a href="http://www.wikitude.com/showcase/wikitude-brings-roman-history-life-carnuntum/">3</a></sup>.
+</li>
+
+<li><h5>Hermes Virtual Tour</h5>  
+<a href="http://www.hermesvirtualtour.com/">Hermes Virtual Tour</a> is an app provider that uses the 2D image recognition features of the Wikitude SDK<sup><a href="http://www.wikitude.com/showcase/hermes-virtual-tour-surfing-in-the-past-through-augmented-reality/">4</a></sup> to allow visitors to augment viewings of of famous monuments and sites (mostly in Italy) with information, virtual tours, animations and 3D reconstruction models that users can move through and explore on their device. 
+</li>
+<li><h5>LangAR</h5>  
+LangAR was a prototype made to demonstrate a role that mobile AR could play in how we learn languages - by giving learners common phrases relevant to the country, type of location (e.g. a bakery) and context they were in<sup> <a href="http://www.wikitude.com/showcase/pearson-ar-language-course/">5</a>,<a href="http://labs.pearson.com/prototypes/langar-augmented-reality-talking-phrasebook/">6</sup></a>. It was made to encourage users to use a new language in a real-life scenario, aiding learning, communication, and connection. To date, there has not been any further development in the project.
+</li>
+</ul>
+  </div>
+
+  <button onclick="accordIndigo('Art2')" class="w3-btn-block w3-left-align"><h3 style="color:white;">Other platforms and solutions <i style="font-size:75%;" class="fa fa-caret-down"></i></h3></button>
+  <div id="Art2" class="w3-accordion-content w3-container">
+<p>
+
+In terms level of technology, other companies such as a <a href="http://layar.com">Layar </a> and <a href="https://www.aurasma.com/">Aurasma</a> feature similar offerings, demonstrating the use of geographic location, sensors and 2D image recognition within a basic augmented reality browser app and offering the purchase of their SDK. Projects can be standalone apps or accessed through the AR browser. Differences between these and Wikitude are mainly in offered paid solutions and differences within the normal apps. In Aurasma, for example, users can make very simple projects directly in their mobile quickly, easily and for free by using the free 3D models in the app. Layar was one the earliest to provide a drag-and-drop interface for creating interactive elements, focusing more of video, images and textual information than 3D models. Both provide a wide range of end-to-end solutions for mobile AR. In terms of example projects, the ones we found tended to be fairly simple in scope:  
+</p>
+<ul>
+<li><h5>Aurasma</h5>
+One Aurasma project for travellers to Haylie Brae in Largs, Scotland, has them pointing their device camera at an information sign in the picnic area of Haylie Brae. Users can then  activate animated images from the past. The effort was intended to alleviate the costs, material waste and littering involved with printing leaflets, as well as to promote the area in a more modern way<sup><a href="http://www.arecadesign.co.uk/Largs_Tourism_uses_Augmented_Reality_to_promote_the_local_area--post--206.html">7</a></sup> .
+</li> 
+
+<li><h5>Layar</h5>
+Most of the travel examples featured in the Layar Blog tended to be projects that overlaid an onscreen see-through of the surrounding area with buttons leading to more information and  historical photographs, along with 2D Maps that highlighted nearby areas of interest<sup><a href="https://www.layar.com/news/blog/2014/07/18/era-girona-exploring-a-citys-past-with-augmented-reality/">8</a>,<a href="https://www.layar.com/news/blog/2013/06/26/layar-helps-ny-town-discover-past/">9</a>,<a href="https://www.layar.com/news/blog/2011/08/05/see-warsaw-as-it-was-during-the-1944-uprising/">10</a></sup>. One project that went beyond this was "Carry Istanbul in Your Pocket", which generated panoramas of famous Istanbul landmarks that users could explore by rotating where they stood, giving the impression of overlaying these sites over the current environment<sup><a href="https://www.layar.com/news/blog/2015/06/23/istanbul-chamber-commerce-brings-citys-landmarks-cannes-real-estate-expo/">11</a></sup>. 
+</li>
+</ul>
+  </div>
+
+  <button onclick="accordIndigo('Art3')" class="w3-btn-block w3-left-align"><h3 style="color:white;">Overview and Insights <i style="font-size:75%;" class="fa fa-caret-down"></i></h3></button>
+  <div id="Art3" class="w3-accordion-content w3-container">
+      <p>What can we learn from these examples of other solutions in a similar field? 
+</p>
+<h5>Open Source vs. Proprietary</h5>
+<p>
+The first observation that arose during research for this section was the lack of consumer-ready open source examples that could be used, despite the ready availability and and relative popularity of libraries such as <a href="http://artoolkit.org">ARToolKit</a>. This could be attributed to several reasons: 
+<ul>
+<li>The considerable commercial investment that often goes into using proprietary platforms might increase the likelihood of seeing a project through to being consumer-ready. </li>
+<li>Open source libraries may not yet have solved problems such as jitteriness or partial occlusion markers and objects<sup><a href="https://www.kudan.eu/kudan-university/augmented-reality-sdk-comparison-tracking-recognition/">12</a></sup>.</li> 
+<li>Organisations may be more willing to pay for the increased abstraction of the challenging aspects of mobile AR programming. This increased abstraction could be achieved through the SDK, or through software that allows non-programmers to create simple projects. While this would allow a greater number of projects to be made by a greater number of people, the latter especially may come at the cost of variability in experience in these apps. </li>
+</ul>
+</p>
+<h5>Overview of technology</h5>
+<p>Of the examples explored, all used location-based technology and 2D image recognition. The use of markers, which seems to be more common in other AR projects such as Project Tango, was markedly absent. This was possibly due to the challenge of placing markers in a a space not owned or managed by the organisation behind the project, the abstraction of solving the problems related to identifying patterns, colors and other features to the platform developer<sup><a href="http://stackoverflow.com/questions/27229465/difference-between-marker-based-and-markerless-augmented-reality">13</a></sup>, and the ready availability of tilt sensors, accelerometers and compasses in today's smartphones. 
+</p>  
+<h5>Features offered </h5>
+<p>
+All of the examples in this section involved overlay and onscreen see-through with interactive elements. These elements varied greatly, from simple text and images to audio and video, to large, navigable 3D models. None of the examples here used quizzes or games as part of the app experience, but there are almost certainly other examples that were not covered here (e.g. <a href="https://www.tricktrack.nl/">Tricktrack</a>, a mobile experience provider that gives clients the possibility of providing location-based gaming for their customers, but did not have a demo or showcase that could be presented here). 
+ 
+Given the wide range of requirements, it will be up to to STAAR Tours to strike a balance between creating a unique and memorable experience, whilst meeting the direct needs of our target audience. 
+</p>
+</div>
+
+
+</div>
+
+<br>
+<hr>
+</div>
+	<!--
+5. CONTENT: CHALLENGES
+-->
+
+
+<h1 id="challenges" style="padding-top: 15px; padding-bottom: 15px"><i class="fa fa-exclamation-triangle w3-text-theme" style="font-size:60px; color: #009688;"></i>  Challenges</h1>
+
+<div id='content'>
+
+
+<p style="padding: 10px;" class="w3-card w3-white">
+The use of AR in Scottish tourism is not without its challenges. This section lists and describes some of the possible challenges facing this project. 
+</p>
+<!-- ex1 -->
+	<div class="w3-row w3-border w3-white">
+		<div class="w3-container w3-teal">
+		<h3 style="color: white;">Re-igniting consumer interest in mobile AR</h3>
+		</div>
+	<div class="w3-container">
+    		<p>
+
+Whilst interest in augmented reality (AR) in general has recently resurfaced with the likes of Magic Leap, Microsoft Hololens, and the choice by Nintendo to develop the next Pokemon game as an AR game<sup><a href="http://www.wired.co.uk/news/archive/2016-03/24/pokemon-go-details-screens-revealed">14</a></sup>), the largest challenge arguably faced by STAAR Tours is the current lack of consumer hype over mobile AR. In addition to a general lack of current publicity, current mobile AR apps also have to overcome the mistakes and poor impressions of early mobile AR, in which AR content was often placed into mobile experience purely for the sake of it and was described as "gimmicky" as a result<sup><a href="http://www.techradar.com/news/world-of-tech/the-tech-that-never-arrived-whatever-happened-to-augmented-reality--1241179">15</a></sup>. Three years ago, Aurasma was described as "ambitious but staggeringly useless" by a writer for the Financial Times<sup><a href="http://howtospendit.ft.com/gadgets/24053-oakley-airwave">16</a></sup>. </p>
+
+<p>
+Lack of awareness or interest in AR could be a challenge in getting people to be interested or to find the app as they explore technologies that interest them (and ignore those that don't). However, over time, developers and analysts have gotten better at understanding the uses and user needs for AR. These needs are deceptively simple on the surface - to have tools that are useful for exploring the immediate world around them. 
+</p>
+
+<p>
+Determining what is useful is therefore important. One small but ambitious project aimed to implement mobile see-through AR and create a rich 3D experience in a small Scottish museum<sup><a href="http://smarttourism.apps-1and1.net/smart-behind-the-scenes-at-the-museum/">17</a></sup>. However, usability studies found that visitors were more interested in textual detail than 3D AR, and so the models (and AR as a whole) were phased out of the project. The use of usability studies and inquiries may be essential in determining what our users will want and/or need. 
+</p>
+
+	</div>
+	</div>
+
+<br>
+
+<!-- ex2-->
+	<div class="w3-row w3-border w3-white">
+		<div class="w3-container w3-teal">
+		<h3 style="color: white;">Cost of development and maintenance</h3>
+		</div>
+	<div class="w3-container">
+    		<p>
+The use of proprietary AR platforms such as Wikitude, Aurasma and Layar are expensive, possibly prohibitively so to small companies and organisations. Without some kind of continued funfing, maintaining and updating projects also seems to be a challenge, with many travel-based mobile AR projects, apps and examples found to be abandoned or closed. 
+</p>
+
+	</div>
+	</div>
+	<br>
+
+<!-- ex3-->
+	<div class="w3-row w3-border w3-white">
+		<div class="w3-container w3-teal">
+		<h3 style="color: white;">Commercial success? </h3>
+		</div>
+	<div class="w3-container">
+    		<p>
+Despite the interest and enthusiasm of developers to create AR solutions, little is known about the commercial success of the apps or consumer response to such projects. It has been suggested before that smaller, particularly non-corporate AR projects, tend to struggle more due to lack of user interest, limited application and/or limited resources<sup><a href="https://docs.google.com/document/d/1cbRVBMr5yVIyIi3wSuswtm3_ABGSQcHnQgSXnGNculA/edit?usp=sharing">18</a></sup>.
+</p>
+
+	</div>
+	</div>
+	<br>
+
+<!-- ex4-->
+	<div class="w3-row w3-border w3-white">
+		<div class="w3-container w3-teal">
+		<h3 style="color: white;">Reliance on Connection</h3>
+		</div>
+	<div class="w3-container">
+    		<p>A lot of mobile AR relies on some kind of internet connection (mobile or WiFi) and/or GPS, either to download it at the site or to use it at all. Unless tourists are signed up to a mobile plan that allows them to roam affordably (or they have very deep pockets), developers would have to be mindful of where users can go when designing each location's application. This could be worked around in some cases by providing offline data and caches, but has a possible trade-off of taking up a large amount of space on an individual's phone. This could also be addressed in part by targeting 'local' tourists - people learning more about the area in which they live, or visitors from other parts of the same country. These users are more likely to have data plans they can use to take advantage of the AR experience.</p>
+
+	</div>
+	</div>
+	<br>
+
+		
+		<br>
+</div>
+</div>
+</div>
+	<!-- FOOTER-->
+<footer>
+	<a href="#top"><i class="fa fa-arrow-circle-up w3-text-theme" style="font-size:20px"></i>  Back to top</a>
+	<p>Assignment for the University of St Andrews</p>
+</footer>
+</body>
+
+</html>

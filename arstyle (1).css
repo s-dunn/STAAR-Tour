@@ -1,0 +1,160 @@
+/*  Main styles  */
+body {
+  background-color: #f9f9f9;
+  width: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 115%;
+}
+
+header {
+  background-color: white;
+  padding: 0px 0px 0px 0px;
+  margin: 0;
+  width: 100%;
+}
+
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer {
+  background-color: black;
+  padding: 10px 0px 10px 0px;
+  margin: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+#logo {
+text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+width: 400px;
+}
+
+#bgpic {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+/*  Font styles  */
+h1{
+color: black;
+font-family: 'Poiret One', sans-serif;
+font-weight: normal;
+text-align: center;
+font-size: 300%;
+margin-bottom: 0;
+padding-bottom: 0;
+margin-top: 0;
+padding-top: 0px;
+}
+
+h2{
+font-size: 100%;
+text-align: center;
+margin-top: 0;
+padding-top: 0;
+margin-bottom: 0;
+padding-bottom: 40px;
+}
+
+h3{
+color: black;
+font-family: 'Poiret One', sans-serif;
+font-weight: normal;
+text-align: center;
+font-size: 200%;
+margin-bottom: 0;
+padding-bottom: 0;
+margin-top: 0;
+padding-top: 5px;
+}
+
+#headertext {
+  margin: auto;
+  width: 40%;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+/*  Div styles  */
+#about {
+  background-color: #f9f9f9;
+  padding: 10px 0px 10px 0px;
+  margin: 0;
+  width: 100%;
+}
+
+#content {
+  width: 80%;
+  text-align: justify;
+  margin: auto;
+}
+
+hr {
+  color: black;
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*  interaction  */
+ #getIt {
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+ }
+
+.button {
+   color: black;
+   background-color: lightblue;
+   border: none;
+   border-radius: 0;
+   padding: 9px;
+ }
+
+ input {
+   color: white;
+   background-color: black;
+   border: none;
+   border-radius: 0;
+   padding: 10px;
+ }
+
+ select {
+   padding: 5px;
+ }
+
+
+/* links */
+a {
+text-decoration: none;
+font-weight: bold;
+}
+
+.regular {
+text-decoration: none;
+font-weight: bold;
+background-color: none; 
+}
+
+#backtotop {
+margin:auto;
+text-align: center;
+}
+
+
+/* slideshow, http://www.w3schools.com/w3css/*/
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
